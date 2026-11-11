@@ -1,0 +1,15 @@
+TRILHA AZUL — Raspberry Pi
+=========================
+
+O jogo está em um único arquivo `trilha-azul.html` (aprox. 28 KB), sem imagens,
+fontes, bibliotecas ou chamadas externas. Pode ser usado offline depois de copiado
+para o Raspberry Pi.
+
+Para abrir com o Chromium:
+1. Copie `trilha-azul.html` para o Raspberry Pi.
+2. Abra o terminal na pasta do arquivo.
+3. Rode: `python3 -m http.server 8080`
+4. No Chromium, abra: `http://localhost:8080/trilha-azul.html`
+
+Para acessar de outro computador na mesma rede, troque `localhost` pelo IP local
+do Raspberry Pi, por exemplo `http://192.168.1.50:8080/trilha-azul.html`.
